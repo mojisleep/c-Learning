@@ -1,6 +1,6 @@
 [Project]
-filename = Project5.dev
-name = Project5
+filename = Project6.dev
+name = Project6
 UnitCount = 1
 Type = 1
 Ver = 3
@@ -9,7 +9,7 @@ Libs =
 Bins = 
 ResourceIncludes = 
 MakeIncludes = 
-PrivateResource = Project5_private.rc
+PrivateResource = Project6_private.rc
 Compiler = 
 CppCompiler = 
 Linker = 
@@ -56,8 +56,8 @@ FileDescription = Developed using the Red Panda C++ IDE
 InternalName = 
 LegalCopyright = 
 LegalTrademarks = 
-OriginalFilename = Project5.exe
-ProductName = Project5
+OriginalFilename = Project6.exe
+ProductName = Project6
 ProductVersion = 0.1.1.1
 AutoIncBuildNr = 0
 SyncProduct = 1
@@ -73,11 +73,11 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = UTF-8
+RealEncoding = ASCII
 
 
 [CompilerSettings]
+c_cmd_opt_std = 
 cc_cmd_opt_debug_info = on
-cc_cmd_opt_std = 
 cc_cmd_opt_use_pipe = on
 cc_cmd_opt_warning_all = on

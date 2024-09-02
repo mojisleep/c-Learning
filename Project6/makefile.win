@@ -1,0 +1,37 @@
+# Project: Project6
+# Makefile created by Red Panda C++ 3.1.2871
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = 
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+WINDRESFLAGS = 
+RES      = Project6_private.res
+OBJ      = untitled1.o $(RES)
+BIN      = Project6.exe
+LINKOBJ  = "untitled1.o" "Project6_private.res"
+CLEANOBJ = "untitled1.o" "Project6_private.res" "Project6.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+Project6.exe: $(OBJ)
+
+	$(CC) $(LINKOBJ) -o "Project6.exe" $(LIBS)
+
+untitled1.o: untitled1.c
+	$(CC) -c "untitled1.c" -o "untitled1.o" $(CFLAGS) 
+
+Project6_private.res: Project6_private.rc 
+	$(WINDRES) -i "Project6_private.rc" --input-format=rc -o "Project6_private.res" -O coff $(WINDRESFLAGS) 
+

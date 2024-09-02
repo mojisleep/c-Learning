@@ -1,8 +1,8 @@
 /* THIS FILE WILL BE OVERWRITTEN BY Red Panda C++ */
 /* DO NOT EDIT ! */
 
-#ifndef PROJECT5_PRIVATE_H
-#define PROJECT5_PRIVATE_H
+#ifndef PROJECT6_PRIVATE_H
+#define PROJECT6_PRIVATE_H
 
 /* VERSION DEFINITIONS */
 #define VER_STRING	"1.0.0.0"
@@ -16,8 +16,8 @@
 #define INTERNAL_NAME	""
 #define LEGAL_COPYRIGHT	""
 #define LEGAL_TRADEMARKS	""
-#define ORIGINAL_FILENAME	"Project5.exe"
-#define PRODUCT_NAME	"Project5"
+#define ORIGINAL_FILENAME	"Project6.exe"
+#define PRODUCT_NAME	"Project6"
 #define PRODUCT_VERSION	"0.1.1.1"
 
-#endif /*PROJECT5_PRIVATE_H*/
+#endif /*PROJECT6_PRIVATE_H*/
