@@ -1,6 +1,6 @@
 [Project]
-filename = Project8.dev
-name = Project8
+filename = Project9.dev
+name = Project9
 UnitCount = 1
 Type = 1
 Ver = 3
@@ -9,7 +9,7 @@ Libs =
 Bins = 
 ResourceIncludes = 
 MakeIncludes = 
-PrivateResource = Project8_private.rc
+PrivateResource = Project9_private.rc
 Compiler = 
 CppCompiler = 
 Linker = 
@@ -51,14 +51,14 @@ Build = 0
 LanguageID = 1033
 CharsetID = 1252
 CompanyName = 
-FileVersion = 0.1
+FileVersion = 
 FileDescription = Developed using the Red Panda C++ IDE
 InternalName = 
 LegalCopyright = 
 LegalTrademarks = 
-OriginalFilename = Project8.exe
-ProductName = Project8
-ProductVersion = 0.1.1.1
+OriginalFilename = 
+ProductName = 
+ProductVersion = 
 AutoIncBuildNr = 0
 SyncProduct = 1
 
@@ -79,5 +79,6 @@ RealEncoding = UTF-8
 [CompilerSettings]
 c_cmd_opt_std = 
 cc_cmd_opt_debug_info = on
+cc_cmd_opt_std = 
 cc_cmd_opt_use_pipe = on
 cc_cmd_opt_warning_all = on

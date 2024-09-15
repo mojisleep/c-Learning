@@ -1,6 +1,6 @@
 [Project]
-filename = Project8.dev
-name = Project8
+filename = Project10.dev
+name = Project10
 UnitCount = 1
 Type = 1
 Ver = 3
@@ -9,7 +9,7 @@ Libs =
 Bins = 
 ResourceIncludes = 
 MakeIncludes = 
-PrivateResource = Project8_private.rc
+PrivateResource = Project10_private.rc
 Compiler = 
 CppCompiler = 
 Linker = 
@@ -56,15 +56,15 @@ FileDescription = Developed using the Red Panda C++ IDE
 InternalName = 
 LegalCopyright = 
 LegalTrademarks = 
-OriginalFilename = Project8.exe
-ProductName = Project8
+OriginalFilename = Project10.exe
+ProductName = Project10
 ProductVersion = 0.1.1.1
 AutoIncBuildNr = 0
 SyncProduct = 1
 
 
 [Unit1]
-FileName = untitled1.c
+FileName = untitled2.c
 CompileCpp = 0
 Folder = 源文件
 Compile = 1
@@ -79,5 +79,6 @@ RealEncoding = UTF-8
 [CompilerSettings]
 c_cmd_opt_std = 
 cc_cmd_opt_debug_info = on
+cc_cmd_opt_std = 
 cc_cmd_opt_use_pipe = on
 cc_cmd_opt_warning_all = on
